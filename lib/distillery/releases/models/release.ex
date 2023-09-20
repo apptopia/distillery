@@ -20,7 +20,7 @@ defmodule Distillery.Releases.Release do
               # required for Mix config provider
               :mix,
               # required for upgrades
-              :sasl,
+              # :sasl,
               # required for some command tooling
               :runtime_tools,
               # needed for config provider API
